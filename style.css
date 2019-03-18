@@ -1,0 +1,166 @@
+body, html {
+    height: 100%;
+}
+
+h1, h2, p, input, textarea, .button {
+    font-family: 'Alegreya Sans', sans-serif;
+    padding:1%;
+
+}
+
+h1 {
+    padding-top: 3%;
+    color: #6F777B;
+    text-align: center;
+    font-size: 4em;
+}
+
+p {
+    text-align: center;
+}
+
+.strong {
+    margin-bottom:-20px;
+    font-weight: bold;
+}
+
+.italic {
+    margin-top:-18px;
+    margin-bottom: 50px;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.parallax { 
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.frontpage { 
+    /* The image used */
+    background-image: url(Bilder/bgtest2.png);
+}
+
+.about { 
+    /* The image used */
+    background-image: url(Bilder/tea.png);
+}
+
+.education { 
+    /* The image used */
+    background-image: url(Bilder/books.jpg);
+}
+
+.working { 
+    /* The image used */
+    background-image: url(Bilder/work.jpg);
+}
+
+/*.textbox {
+    width: 70%;
+    margin:auto;
+}*/
+
+.threecolumns {
+    float:left;
+    width: 28%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    margin: auto;
+}
+
+.fullcolumn {
+    width: 28%;
+    margin:auto;
+    
+
+}
+
+.timeline {
+   width:80%;
+   margin:auto;
+}
+
+
+
+.form {
+    width:40%;
+    margin:auto;
+}
+
+
+
+
+input, textarea {
+    box-sizing:border-box;
+    border: none;
+    background-color: #CDCDCD;
+    color:black;
+    padding:12px 20px;
+    font-size: 1.2em;
+}
+
+.formname, .formmail {
+    display:inline;
+}
+
+
+.button {
+    display: inline-block;
+    float:right;
+    border-radius: 4px;
+    background-color: #9B2247;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 18px;
+    width: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-right: 35px;
+    margin-bottom:10%;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+footer{
+    clear: both;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    background-color: #222A2E;
+    color: white;
+}
+
+
